@@ -147,9 +147,9 @@ STATIC_URL = '/static/'
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
 
-ALLOWED_HOSTS = ['polar-atoll-99792.herokuapp.com','127.0.0.1']
+#ALLOWED_HOSTS = ['polar-atoll-99792.herokuapp.com','127.0.0.1']
