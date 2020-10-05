@@ -151,3 +151,5 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+ALLOWED_HOSTS = ['polar-atoll-99792.herokuapp.com','127.0.0.1']
